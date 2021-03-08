@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito&display=swap');
+
+body {
+    font-family: Arial;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('concert.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    background-attachment: fixed;
+}
+
+p {
+    text-align: justify;
+    color: #ddd;
+    line-height: 1.5em;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 1px 2px 1px black;
+    text-indent:25px;
+  /* text-shadow: 1px 2px 1px black  ;  */
+}
+
+.sasha{
+    color: rgb(255, 255, 255);
+}
+
+#title{
+    font-size: 45px;
+    color: rgb(240, 140, 10); 
+    text-align: center;
+    margin-top: 2em;
+    font-family: Tahoma;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.video-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0rem 10rem;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.vid-inner{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.a{
+    text-align:center ; 
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    width: 450px;
+    font-size: 25px;
+    color: rgb(240, 140, 10);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+li, button{
+    font-family: "Open Sans" , sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+    height: 50px;
+    background-color:rgb(240, 140, 10);
+}
+
+.logo{
+    cursor:pointer;
+    width: 250px;
+    height: 50px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(255, 1, 1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+}
+
+button :hover{
+    background-color: rgb(255, 1, 1, );
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+   
+    width: 200px;
+    list-style: none;
+    background:rgb(240, 140, 10);
+    position: relative;
+}
+
+.menu a{
+    background-color:rgb(240, 140, 10) ;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align:center;
+    padding:0 10px;
+    height: 50px;
+    line-height: 50px;
+    transition: all .3s ease 0s;
+}
+
+.menu a:hover{
+    background:rgb(255, 1, 1);
+}
+
+.menu ul {
+    position:absolute;
+    left:0;
+    top:100%;
+    padding: 0;
+    display: none;
+    
+}
+
+.menu li:hover ul{
+    display:block
+}
